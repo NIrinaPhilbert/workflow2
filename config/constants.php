@@ -1,0 +1,7 @@
+<?php
+return[
+    'NOMBRE_JOUR_MAX_VALIDATION' => '1',
+    'NOMBRE_JOUR_MAX_TRAITEMENT' => '2',
+    'NOMBRE_JOUR_MAX_ACTIVATION_USER' => '1'
+] ;
+?>

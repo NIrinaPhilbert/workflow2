@@ -1,0 +1,13 @@
+.div_flex {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.close span {
+	color: #fff;
+	opacity: 1;
+}
+.dropdown-header .info label {
+	font-size: 1.1rem;
+}

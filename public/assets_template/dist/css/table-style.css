@@ -1,0 +1,15 @@
+table.table-readable tr {
+  cursor: default;
+}
+table.table-readable .read {
+  background: #eff;
+  font-weight: normal;
+}
+table.table-readable .unread {
+  cursor: pointer;
+  background: #fff;
+  font-weight: 700;
+}
+.dropdown-header .info label {
+  font-size: 1.1rem;
+}

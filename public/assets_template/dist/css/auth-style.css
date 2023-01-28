@@ -1,0 +1,90 @@
+body a
+{
+	cursor: pointer;
+}
+.page-login
+{
+	/*background: #454d55;*/
+	background: #f4f6f9;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	height: 100vh;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.page-login .card
+{
+	border: .1rem solid #eee;
+	box-shadow: none;
+}
+.page-login .login-card-body
+{
+	/*background: #2c2f33;*/
+	background: #fff;
+}
+.page-login .login-card-body input
+{
+	background: transparent;
+}
+.page-login .login-logo,
+.page-login .login-box {
+	width: 100%;
+}
+.page-login .login-logo {
+	position: absolute;
+	top: -30px;
+	left: 0;
+}
+.page-login .login-logo a {
+	/*background: #454d55;*/
+	background: #fff;
+	border-radius: 100%;
+	border: 2px solid #41b883;
+}
+.page-login .login-logo a img {
+	width: 40px;
+}
+.page-login .login-logo a,
+.page-login .login-logo a:hover
+{
+	color: #f6f6f6;
+}
+.page-login .login-card-body *:not(.btn, .alert)
+{
+	/*color: #f2f2f2;*/
+	color: inherit;
+}
+.preloader-login:not(.displayed) {
+	height: 0;
+}
+.preloader-login:not(.displayed) img {
+	visibility: hidden;
+}
+.preloader-login.displayed {
+	height: 100vh;
+}
+.preloader-login.displayed img {
+	visibility: visible;
+}
+.preloader-login {
+	background-color: #454d55 !important;
+	color: #fff;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: #f4f6f9;
+	width: 100%;
+	transition: height .2s linear;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+}

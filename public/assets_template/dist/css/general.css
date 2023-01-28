@@ -1,0 +1,25 @@
+.media .media-body {
+	width: calc(-50px);
+}
+.text-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap !important;
+}
+.nb-notification {
+	display: none;
+}
+.item-notification {
+  cursor: default;
+}
+.read {
+  background: #eff;
+  font-weight: normal;
+}
+.unread {
+  cursor: pointer;
+  background: #fff;
+}
+.unread * {
+  font-weight: 700;
+}

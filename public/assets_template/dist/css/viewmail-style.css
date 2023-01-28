@@ -1,0 +1,87 @@
+.text-upper {
+	text-transform: uppercase;
+}
+.mailbox-attachment-icon:not(.has-img) img.icon {
+	height: 80px;
+}
+.mailbox-read-info {
+	border-width: 0;
+}
+.mailbox-read-info .info-sender .info-name,
+.mailbox-read-info .info-sender .info-mail,
+.mailbox-read-info .info-sender .info-time {
+	display: inline-block;
+}
+.mailbox-read-info .info-sender .info-name {
+	font-size: 13pt;
+}
+.mailbox-read-info .info-sender .info-mail {
+	font-size: 11.5pt;
+}
+.mailbox-read-info .info-receiver {
+	font-size: 11pt;
+}
+.mailbox-read-time {
+	font-size: 11pt;
+	float: right;
+	margin-top: 6px;
+}
+.mailbox-read-info .info-toggler {
+	cursor: pointer;
+	padding: 12px 4px 4px;
+	border-radius: .3em;
+	position: relative;
+	display: inline-flex;
+	margin-left: 2px;
+}
+.mailbox-read-info .info-toggler::after {
+	margin-top: -6px;
+}
+.mailbox-read-info .info-toggler:hover,
+.mailbox-read-info .info-toggler:focus {
+	background-color: #eee;
+}
+.table-mail-info tr > td {
+	vertical-align: top;
+	border-collapse: separate;
+	font-size: 12pt;
+}
+.table-mail-info tr > td:first-child {
+	text-align: right;
+}
+.table-mail-info tr > td:last-child {
+	padding-left: 15px;
+	padding-bottom: 7px;
+}
+.mailbox-attachment-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mailbox-attachment-name {
+	word-wrap: anywhere;
+}
+.pj-data {
+	padding: 0 10px 5px 5px;
+	border: 1px solid transparent;
+}
+.pj-data:hover {
+	background-color: #f6f6f6;
+	border-color: #eee;
+	border-radius: .2em;
+}
+.pj-data .pj-content {
+	text-align: left;
+	margin: 0;
+	padding-top: 5px;
+}
+.pj-data .pj-icon {
+	height: 40px;
+}
+.pj-data .pj-name {
+	font-weight: normal;
+}
+.pj-data .btn {
+	float: right;
+	margin-top: 13px;
+}
